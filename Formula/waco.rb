@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
-class ParseChangelog < Formula
+class Waco < Formula
   desc "Command line tool to manage WildFly containers"
   homepage "https://github.com/hpehl/waco"
   version "0.0.1"
