@@ -9,6 +9,9 @@ class Mcup < Formula
 
   def install
     bin.install "mcup"
+    bash_completion.install "completions/mcup.bash" => "mcup"
+    zsh_completion.install "completions/_mcup"
+    fish_completion.install "completions/mcup.fish"
   end
 
   test do
