@@ -9,9 +9,9 @@ class Waco < Formula
 
   def install
     bin.install "waco"
-    bash_completion.install "completions/waco.bash" => "waco"
-    zsh_completion.install "completions/_waco"
-    fish_completion.install "completions/waco.fish"
+    bash_completion.install "waco.bash" => "waco"
+    zsh_completion.install "_waco"
+    fish_completion.install "waco.fish"
   end
 
   test do
