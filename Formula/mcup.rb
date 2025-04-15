@@ -2,9 +2,9 @@
 class Mcup < Formula
   desc "Command-line tool to keep your local maven repository small 📦 and tidy 🧹"
   homepage "https://github.com/hpehl/mcup"
-  url "https://github.com/hpehl/mcup/releases/download/v0.2.6/mcup-x86_64-apple-darwin.tar.gz"
-  sha256 "03159ae515008f9da141fe636b2bc26f657530068081a45b6fa1509ef966101d"
-  version "0.2.6"
+  url "https://github.com/hpehl/mcup/releases/download/v0.2.7/mcup-x86_64-apple-darwin.tar.gz"
+  sha256 "467539f83cc14664aeef4d32ce891c76cf97988482b50d589140aafd6f2d2592"
+  version "0.2.7"
   license "Apache-2.0"
 
   def install
