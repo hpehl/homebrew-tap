@@ -2,9 +2,9 @@
 class Waco < Formula
   desc "Command line tool to manage WildFly containers"
   homepage "https://github.com/hpehl/waco"
-  url "https://github.com/hpehl/waco/releases/download/v0.0.8/waco-x86_64-apple-darwin.tar.gz"
-  sha256 "53735d3e2454eb6b96fd10813f38251356bcc56fa138839c2488d4f2e9c42b33"
-  version "0.0.8"
+  url "https://github.com/hpehl/waco/releases/download/v0.0.9/waco-x86_64-apple-darwin.tar.gz"
+  sha256 "3ccd8bd6cb1c1f442b3b0eab08005d33564fb569abcfae81cf51ebcfe69119cd"
+  version "0.0.9"
   license "Apache-2.0"
 
   def install
