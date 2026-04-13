@@ -9,12 +9,10 @@ class Wado < Formula
 
   def install
     bin.install "wado"
-    bash_completion.install "wado.bash" => "wado"
-    zsh_completion.install "_wado"
-    fish_completion.install "wado.fish"
+    generate_completions_from_executable(bin/"wado", "completions")
   end
 
   test do
-      system "#{bin}/wado", "--version"
-    end
+    system "#{bin}/wado", "--version"
+  end
 end
