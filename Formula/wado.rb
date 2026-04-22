@@ -2,9 +2,9 @@
 class Wado < Formula
   desc "Command line tool to manage WildFly containers"
   homepage "https://github.com/hpehl/wado"
-  url "https://github.com/hpehl/wado/releases/download/v0.4.5/wado-x86_64-apple-darwin.tar.gz"
-  sha256 "c7de505db700a89b857f9404c909fe6e7fac8f82f7106d27b4768abf83e82e4d"
-  version "0.4.5"
+  url "https://github.com/hpehl/wado/releases/download/v0.4.6/wado-x86_64-apple-darwin.tar.gz"
+  sha256 "0e10f2590b87e040a3540c7838f6298b77c46116a764fb6baf44bae95e3a7c12"
+  version "0.4.6"
   license "Apache-2.0"
 
   def install
