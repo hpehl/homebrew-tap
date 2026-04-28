@@ -9,9 +9,7 @@ class Mgt < Formula
 
   def install
     bin.install "mgt"
-    bash_completion.install "mgt.bash" => "mgt"
-    zsh_completion.install "_mgt"
-    fish_completion.install "mgt.fish"
+    generate_completions_from_executable(bin/"mgt", "completions")
   end
 
   test do
