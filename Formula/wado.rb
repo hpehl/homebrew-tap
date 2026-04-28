@@ -2,19 +2,17 @@
 class Wado < Formula
   desc "Command line tool to manage WildFly containers"
   homepage "https://github.com/hpehl/wado"
-  url "https://github.com/hpehl/wfadm/releases/download/v0.1.0/wado-x86_64-apple-darwin.tar.gz"
-  sha256 "6f024d19a5f49b4b99528fd256d89cb4ac6559475b60876e77a20fa6c69de2c9"
-  version "0.0.7"
+  url "https://github.com/hpehl/wado/releases/download/v0.4.12/wado-x86_64-apple-darwin.tar.gz"
+  sha256 "93d3a719ff8790f3c1c0416d4d38e68d52929ecb6bbae3965f258e2bdb890edc"
+  version "0.4.12"
   license "Apache-2.0"
 
   def install
     bin.install "wado"
-    bash_completion.install "wado.bash" => "wado"
-    zsh_completion.install "_wado"
-    fish_completion.install "wado.fish"
+    generate_completions_from_executable(bin/"wado", "completions")
   end
 
   test do
-      system "#{bin}/wado", "--version"
-    end
+    system "#{bin}/wado", "--version"
+  end
 end
