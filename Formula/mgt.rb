@@ -2,9 +2,9 @@
 class Mgt < Formula
   desc "Command line tool to analyze the WildFly management model"
   homepage "https://model-graph-tools.github.io/"
-  url "https://github.com/model-graph-tools/tooling/releases/download/v0.2.0/mgt-x86_64-apple-darwin.tar.gz"
-  sha256 "d68b87ae542760282c6007e708e39db35b8df2850c87be3942c7d525b4388b8a"
-  version "0.2.0"
+  url "https://github.com/model-graph-tools/tooling/releases/download/v0.2.1/mgt-x86_64-apple-darwin.tar.gz"
+  sha256 "1d9501b65b58963111148f167934d6a62e046631e6f9d9f18e06e9ea9b04b927"
+  version "0.2.1"
   license "Apache-2.0"
 
   def install
