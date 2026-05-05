@@ -20,6 +20,10 @@ class Mgt < Formula
     generate_completions_from_executable(bin/"mgt", "completions")
   end
 
+  def post_install
+    system bin/"mgt", "update"
+  end
+
   test do
     system "#{bin}/mgt", "--version"
   end
