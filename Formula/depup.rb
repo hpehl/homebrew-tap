@@ -7,12 +7,12 @@ class Depup < Formula
 
   on_arm do
     url "https://github.com/hpehl/depup/releases/download/v0.1.0/depup-aarch64-apple-darwin.tar.gz"
-    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    sha256 "6253ad50cc05ba1cafc15f1d064330c527d4be47cdf9fb0885acbe4d999e08e2"
   end
 
   on_intel do
     url "https://github.com/hpehl/depup/releases/download/v0.1.0/depup-x86_64-apple-darwin.tar.gz"
-    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    sha256 "66e7ef9bb9213f4e554ab2f147a769c8523a24e52656743532b676d82332aeab"
   end
 
   def install
