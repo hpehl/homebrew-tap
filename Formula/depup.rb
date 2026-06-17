@@ -2,17 +2,17 @@
 class Depup < Formula
   desc "Check dependency versions across Maven and npm ecosystems"
   homepage "https://github.com/hpehl/depup"
-  version "0.2.1"
+  version "0.2.2"
   license "Apache-2.0"
 
   on_arm do
-    url "https://github.com/hpehl/depup/releases/download/v0.2.1/depup-aarch64-apple-darwin.tar.gz"
-    sha256 "5efe4c11ce64f703ca29e5de400fc3f8f9695a215376546da8a5381150011542"
+    url "https://github.com/hpehl/depup/releases/download/v0.2.2/depup-aarch64-apple-darwin.tar.gz"
+    sha256 "d19faa0d1f5cc9a9d2a7cb2d9198fdd95c70824388a16af7cb88af276cc37e14"
   end
 
   on_intel do
-    url "https://github.com/hpehl/depup/releases/download/v0.2.1/depup-x86_64-apple-darwin.tar.gz"
-    sha256 "43278aa0e1c329567473f9e4ed4d7703cfd3f1f4735555198a4e2931328162f6"
+    url "https://github.com/hpehl/depup/releases/download/v0.2.2/depup-x86_64-apple-darwin.tar.gz"
+    sha256 "87303e010463c26d4f7925eaf512b886d263cf204b3d1ec70498a4b9f0974816"
   end
 
   def install
