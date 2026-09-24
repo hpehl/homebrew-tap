@@ -20,7 +20,7 @@ class Mgt < Formula
     generate_completions_from_executable(bin/"mgt", "completions")
   end
 
-  def post_install
+  def post_install_steps
     system bin/"mgt", "update"
   end
 
